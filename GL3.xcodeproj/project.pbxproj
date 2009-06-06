@@ -1,0 +1,203 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DCB3C0CC0FC0A45F0081693E /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB3C0CB0FC0A45F0081693E /* GLUT.framework */; };
+		DCB3C0CE0FC0A45F0081693E /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB3C0CD0FC0A45F0081693E /* OpenGL.framework */; };
+		DCB3C0D50FC0A4710081693E /* tutorial2.c in Sources */ = {isa = PBXBuildFile; fileRef = DCB3C0D40FC0A4710081693E /* tutorial2.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DCB3C0C40FC0A43E0081693E /* Tutorial2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tutorial2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCB3C0C70FC0A43E0081693E /* Tutorial2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tutorial2-Info.plist"; sourceTree = "<group>"; };
+		DCB3C0CB0FC0A45F0081693E /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = /System/Library/Frameworks/GLUT.framework; sourceTree = "<absolute>"; };
+		DCB3C0CD0FC0A45F0081693E /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		DCB3C0D30FC0A4710081693E /* tutorial2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tutorial2.h; sourceTree = "<group>"; };
+		DCB3C0D40FC0A4710081693E /* tutorial2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tutorial2.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCB3C0C20FC0A43E0081693E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCB3C0CC0FC0A45F0081693E /* GLUT.framework in Frameworks */,
+				DCB3C0CE0FC0A45F0081693E /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCB3C0B40FC0A4290081693E = {
+			isa = PBXGroup;
+			children = (
+				DCB3C0C50FC0A43E0081693E /* Products */,
+				DCB3C0C70FC0A43E0081693E /* Tutorial2-Info.plist */,
+				DCB3C0D30FC0A4710081693E /* tutorial2.h */,
+				DCB3C0D40FC0A4710081693E /* tutorial2.c */,
+				DCB3C0CB0FC0A45F0081693E /* GLUT.framework */,
+				DCB3C0CD0FC0A45F0081693E /* OpenGL.framework */,
+			);
+			sourceTree = "<group>";
+		};
+		DCB3C0C50FC0A43E0081693E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCB3C0C40FC0A43E0081693E /* Tutorial2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCB3C0C30FC0A43E0081693E /* Tutorial2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCB3C0CA0FC0A43F0081693E /* Build configuration list for PBXNativeTarget "Tutorial2" */;
+			buildPhases = (
+				DCB3C0C00FC0A43E0081693E /* Resources */,
+				DCB3C0C10FC0A43E0081693E /* Sources */,
+				DCB3C0C20FC0A43E0081693E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tutorial2;
+			productName = Tutorial2;
+			productReference = DCB3C0C40FC0A43E0081693E /* Tutorial2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCB3C0B60FC0A4290081693E /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = DCB3C0B90FC0A4290081693E /* Build configuration list for PBXProject "GL3" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 0;
+			mainGroup = DCB3C0B40FC0A4290081693E;
+			productRefGroup = DCB3C0C50FC0A43E0081693E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCB3C0C30FC0A43E0081693E /* Tutorial2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCB3C0C00FC0A43E0081693E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCB3C0C10FC0A43E0081693E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCB3C0D50FC0A4710081693E /* tutorial2.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DCB3C0B70FC0A4290081693E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		DCB3C0B80FC0A4290081693E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+			};
+			name = Release;
+		};
+		DCB3C0C80FC0A43F0081693E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = "Tutorial2-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = Tutorial2;
+			};
+			name = Debug;
+		};
+		DCB3C0C90FC0A43F0081693E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "Tutorial2-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = Tutorial2;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCB3C0B90FC0A4290081693E /* Build configuration list for PBXProject "GL3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCB3C0B70FC0A4290081693E /* Debug */,
+				DCB3C0B80FC0A4290081693E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCB3C0CA0FC0A43F0081693E /* Build configuration list for PBXNativeTarget "Tutorial2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCB3C0C80FC0A43F0081693E /* Debug */,
+				DCB3C0C90FC0A43F0081693E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCB3C0B60FC0A4290081693E /* Project object */;
+}
