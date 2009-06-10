@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC89AEDC0FDFEA1A00D2F72D /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB3C0CB0FC0A45F0081693E /* GLUT.framework */; };
+		DC89AEDD0FDFEA2000D2F72D /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB3C0CD0FC0A45F0081693E /* OpenGL.framework */; };
+		DC89AEDF0FDFEA3800D2F72D /* tutorial3.c in Sources */ = {isa = PBXBuildFile; fileRef = DC89AEDE0FDFEA3800D2F72D /* tutorial3.c */; };
+		DC89AEEE0FDFEA8F00D2F72D /* ngmesh.c in Sources */ = {isa = PBXBuildFile; fileRef = DC89AEED0FDFEA8F00D2F72D /* ngmesh.c */; };
 		DCB3C0CC0FC0A45F0081693E /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB3C0CB0FC0A45F0081693E /* GLUT.framework */; };
 		DCB3C0CE0FC0A45F0081693E /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB3C0CD0FC0A45F0081693E /* OpenGL.framework */; };
 		DCB3C0D50FC0A4710081693E /* tutorial2.c in Sources */ = {isa = PBXBuildFile; fileRef = DCB3C0D40FC0A4710081693E /* tutorial2.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DC89AED60FDFEA0200D2F72D /* Tutorial3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tutorial3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC89AED80FDFEA0200D2F72D /* Tutorial3-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tutorial3-Info.plist"; sourceTree = "<group>"; };
+		DC89AEDE0FDFEA3800D2F72D /* tutorial3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tutorial3.c; sourceTree = "<group>"; };
+		DC89AEEC0FDFEA8F00D2F72D /* ngmesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ngmesh.h; sourceTree = "<group>"; };
+		DC89AEED0FDFEA8F00D2F72D /* ngmesh.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngmesh.c; sourceTree = "<group>"; };
+		DC89AF030FDFEFC500D2F72D /* ngcore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ngcore.h; sourceTree = "<group>"; };
 		DCB3C0C40FC0A43E0081693E /* Tutorial2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tutorial2.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DCB3C0C70FC0A43E0081693E /* Tutorial2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tutorial2-Info.plist"; sourceTree = "<group>"; };
 		DCB3C0CB0FC0A45F0081693E /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = /System/Library/Frameworks/GLUT.framework; sourceTree = "<absolute>"; };
 		DCB3C0CD0FC0A45F0081693E /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
 		DCB3C0D30FC0A4710081693E /* tutorial2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tutorial2.h; sourceTree = "<group>"; };
@@ -22,6 +31,15 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		DC89AED40FDFEA0200D2F72D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC89AEDC0FDFEA1A00D2F72D /* GLUT.framework in Frameworks */,
+				DC89AEDD0FDFEA2000D2F72D /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DCB3C0C20FC0A43E0081693E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -37,12 +55,16 @@
 		DCB3C0B40FC0A4290081693E = {
 			isa = PBXGroup;
 			children = (
+				DC89AF030FDFEFC500D2F72D /* ngcore.h */,
+				DC89AEEC0FDFEA8F00D2F72D /* ngmesh.h */,
+				DC89AEED0FDFEA8F00D2F72D /* ngmesh.c */,
 				DCB3C0C50FC0A43E0081693E /* Products */,
-				DCB3C0C70FC0A43E0081693E /* Tutorial2-Info.plist */,
 				DCB3C0D30FC0A4710081693E /* tutorial2.h */,
 				DCB3C0D40FC0A4710081693E /* tutorial2.c */,
 				DCB3C0CB0FC0A45F0081693E /* GLUT.framework */,
 				DCB3C0CD0FC0A45F0081693E /* OpenGL.framework */,
+				DC89AED80FDFEA0200D2F72D /* Tutorial3-Info.plist */,
+				DC89AEDE0FDFEA3800D2F72D /* tutorial3.c */,
 			);
 			sourceTree = "<group>";
 		};
@@ -50,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				DCB3C0C40FC0A43E0081693E /* Tutorial2.app */,
+				DC89AED60FDFEA0200D2F72D /* Tutorial3.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -57,6 +80,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		DC89AED50FDFEA0200D2F72D /* Tutorial3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC89AEDB0FDFEA0300D2F72D /* Build configuration list for PBXNativeTarget "Tutorial3" */;
+			buildPhases = (
+				DC89AED20FDFEA0200D2F72D /* Resources */,
+				DC89AED30FDFEA0200D2F72D /* Sources */,
+				DC89AED40FDFEA0200D2F72D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tutorial3;
+			productName = Tutorial3;
+			productReference = DC89AED60FDFEA0200D2F72D /* Tutorial3.app */;
+			productType = "com.apple.product-type.application";
+		};
 		DCB3C0C30FC0A43E0081693E /* Tutorial2 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = DCB3C0CA0FC0A43F0081693E /* Build configuration list for PBXNativeTarget "Tutorial2" */;
@@ -88,11 +128,19 @@
 			projectRoot = "";
 			targets = (
 				DCB3C0C30FC0A43E0081693E /* Tutorial2 */,
+				DC89AED50FDFEA0200D2F72D /* Tutorial3 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		DC89AED20FDFEA0200D2F72D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DCB3C0C00FC0A43E0081693E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -103,6 +151,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		DC89AED30FDFEA0200D2F72D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC89AEDF0FDFEA3800D2F72D /* tutorial3.c in Sources */,
+				DC89AEEE0FDFEA8F00D2F72D /* ngmesh.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DCB3C0C10FC0A43E0081693E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -114,6 +171,54 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		DC89AED90FDFEA0300D2F72D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = "Tutorial3-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = Tutorial3;
+			};
+			name = Debug;
+		};
+		DC89AEDA0FDFEA0300D2F72D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = "Tutorial3-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = Tutorial3;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
 		DCB3C0B70FC0A4290081693E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -139,7 +244,7 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "";
-				INFOPLIST_FILE = "Tutorial2-Info.plist";
+				INFOPLIST_FILE = "";
 				INSTALL_PATH = "$(HOME)/Applications";
 				OTHER_LDFLAGS = (
 					"-framework",
@@ -162,7 +267,7 @@
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
-				INFOPLIST_FILE = "Tutorial2-Info.plist";
+				INFOPLIST_FILE = "";
 				INSTALL_PATH = "$(HOME)/Applications";
 				OTHER_LDFLAGS = (
 					"-framework",
@@ -179,6 +284,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		DC89AEDB0FDFEA0300D2F72D /* Build configuration list for PBXNativeTarget "Tutorial3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC89AED90FDFEA0300D2F72D /* Debug */,
+				DC89AEDA0FDFEA0300D2F72D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		DCB3C0B90FC0A4290081693E /* Build configuration list for PBXProject "GL3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
